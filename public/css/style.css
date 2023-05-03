@@ -55,6 +55,7 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    /* タイトルが横から出現するようにアレンジ */
     transform: translateX(-100vw);
     transition: .3s;
 }
@@ -69,6 +70,7 @@ header{
     position: relative;
     height: 420px;
     margin: 120px auto;
+    /* スクロールするとフェードインするようアレンジ */
     opacity: 0;
     transition: .5s;
 }
@@ -79,9 +81,11 @@ header{
     object-fit: cover;
     position: absolute;
     top: 0;
+    /* ホバーすると大きくなるようアレンジ */
     transition: .3s;
 }
 
+/* ホバーすると大きくなるようアレンジ */
 .introduction__image:hover{
     transform: scale(1.1);
 }
