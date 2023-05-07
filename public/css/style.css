@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(240, 240, 240);
 }
 
 /* = = = header = = = */
@@ -111,7 +111,7 @@ header{
 
 .introduction__title--bg{
     position: absolute;
-    color: rgba(70, 39, 8, 0.4);
+    color: rgb(167, 255, 173);
     font-size: 28px;
     top: 24px;
     z-index: 1;
