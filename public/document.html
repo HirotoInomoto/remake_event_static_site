@@ -1,1 +1,62 @@
-aaa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            padding: 36px;
+        }
+        h3{
+            padding-left: 16px;
+        }
+        p{
+            padding-left: 32px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Webサイトアレンジ</h1>
+    <h2>フォントの変え方（GoogleFontsの導入）</h2>
+    <h3>GoogleFontsにアクセス</h3>
+    <p>
+        GoogleFontsと検索する。
+    </p>
+    <h3>導入したいフォントを選ぶ</h3>
+    <p>
+        languageでJapaneseを選択すると、日本語対応のあるフォントを選択することができる。<br>
+        フォントを決めたら、そのフォントをクリックし、詳細ページへアクセスする。その後、Styles内で追加したい太さ・種類の右側の「Select （フォントの種類） ⊕」をクリックする。
+    </p>
+    <h3>作成中のWebサイトに導入する</h3>
+    <p>
+        右のメニュー（表示されていなければ、ヘッダーのアイコン「View select families」をクリックすることで出現する）の「Use on the web」で「&lt;link&gt;」を選択。下に表示される `&lt;link&gt;` タグのコードをコピーし、HTMLの `&lt;head&gt;&lt;/head&gt;` 内に貼り付ける。ただし、 `&lt;link rel="stylesheet" href="css/style.css"&gt;` より上の行に貼り付ける。<br>
+        それができたら、CSS上でフォントを導入したい箇所に `font-family: （フォントの種類）;` を貼り付けることで導入できる。
+    </p>
+
+    <h2>透明色</h2>
+    <p>
+        `rgb()` ではなく `rgba()` というものを用いると、透明な色を使うことができる。これを使うと、後ろにある要素（文字、画像など）が透けて見えるようになるなどアレンジの幅が広がる。「css rgba」と検索してみましょう。
+    </p>
+    
+    <h2>影をつける</h2>
+    <h3>要素に影を付ける</h3>
+    <p>
+        CSSで、影を付けたい要素に対して、 `box-shadow` を適用する。「css box-shadow」と検索してみましょう。
+    </p>
+    <h3>文字に影を付ける</h3>
+    <p>
+        CSSで、影を付けたい要素に対して、 `text-shadow` を適用する。「css text-shadow」と検索してみましょう。
+    </p>
+
+    <h2>もっとおしゃれなデザインにアレンジする</h2>
+    <p>
+        「CSS おしゃれ サンプル」など調べてみると、おしゃれなデザインとその実装例のサンプルコードを掲載したサイトが出てきます。自分のページに使ってみたいものがあれば、そのサンプルコードを参考にコードを書いてみることで導入できるので、チャレンジしてみましょう。
+    </p>
+
+    <h2>CSSアニメーションを実装する</h2>
+    <p>
+        CSSだけでも、動きのあるWebサイトを作ることが可能です。ずっと同じ動きをするようにできたり、クリックをしている間、マウスカーソルをかぶせている間など、様々なきっかけで動きをつけることができます。「CSS アニメーション」と検索してみましょう。
+    </p>
+</body>
+</html>
